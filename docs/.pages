@@ -1,0 +1,6 @@
+nav:
+    - index.md
+    - Section 1:
+        - notebooks-101-dev
+    - Section 2:
+        - ...
