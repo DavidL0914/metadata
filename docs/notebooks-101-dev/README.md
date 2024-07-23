@@ -1,8 +1,5 @@
 ---
 sort: 1
-tags:
-  - AI-learning
-  - development
 ---
 # Notebooks-101-DEV Tutorial
 
