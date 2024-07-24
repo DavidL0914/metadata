@@ -1,8 +1,8 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
-      - master 
+      - master
       - main
 permissions:
   contents: write
@@ -18,8 +18,10 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-awesome-pages-plugin
-      - run: pip install pillow cairosvg
-      - run: pip install mkdocs-plugin-tags
+      - run: pip install --upgrade pip
+      - run: pip install mkdocs-material==8.5.0
+      - run: pip install mkdocs-awesome-pages-plugin==2.7.0
+      - run: pip install pillow==9.0.1 cairosvg==2.5.2
+      - run: pip install mkdocs-plugin-tags==0.2.2
+      - run: pip install jinja2<3.1
       - run: mkdocs gh-deploy --force
