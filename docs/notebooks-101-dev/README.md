@@ -1,6 +1,11 @@
 ---
 sort: 1
+tags:
+  - Tag 1
+  - Tag 2
+  - Tag 3
 ---
+
 # Notebooks-101-DEV Tutorial
 
 Everything you need to know about running Jupyter Notebooks on HPC Systems at SDSC.

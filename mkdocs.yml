@@ -4,6 +4,10 @@ theme: 'readthedocs'
 plugins:
     - search
     - awesome-pages
+    - tags
+
+extra_css:
+  - css/extra.css
 
 extra:
   social:

@@ -1,5 +1,7 @@
 ---
 sort: 4
+tags:
+  - Tag 1
 ---
 
 #  Managing Accounts on Expanse

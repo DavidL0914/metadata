@@ -1,5 +1,7 @@
 ---
 sort: 6
+tags:
+  - Tag 3
 ---
 
 # Compiling & Linking Code
