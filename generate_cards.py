@@ -35,13 +35,12 @@ def write_to_index(content, index_file_path):
         file.write(content)
 
 def main():
-    yaml_file_path = 'docs/master.yaml'  # Update this path to your master YAML file
-    index_file_path = 'docs/index.md'  # Path to the index.md file
+    yaml_file_path = 'docs/master.yaml'
+    index_file_path = 'docs/index.md'
 
     yaml_data = load_yaml(yaml_file_path)
     cards_content = generate_cards(yaml_data)
     
-    # Add title to the content
     full_content = "# ICICLE Training Catalog\n\n" + cards_content
     
     write_to_index(full_content, index_file_path)
