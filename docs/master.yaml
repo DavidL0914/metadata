@@ -25,6 +25,7 @@ components:
     trainingTutorialsAvailable: true
     trainingTutorialsUrl: https://tapis-project.github.io/tutorials/
     usageMetricsCollected: true
+    category: Category1
 
   - id: EventEngine:0.2.0
     owner: Joe Stubbs
@@ -111,6 +112,7 @@ components:
     trainingTutorialsAvailable: true
     trainingTutorialsUrl: https://tapis-project.github.io/tutorials/pods/intro/
     usageMetricsCollected: true
+    category: Category1
 
   - id: SFVADashboard:0.1
     owner: Matthew Lange
@@ -300,6 +302,7 @@ components:
     trainingTutorialsAvailable: true
     trainingTutorialsUrl: https://tapis-project.github.io/tutorials/pods/intro/
     usageMetricsCollected: true
+    category: Category3
 
   - id: KrogerStoreClosure:0.1
     owner: Ayaz Hyder
@@ -729,6 +732,7 @@ components:
     trainingTutorialsAvailable: true
     trainingTutorialsUrl: https://tapis-project.github.io/tutorials/pods/intro/
     usageMetricsCollected: true
+    category: Category1
 
   - id: FederatedAuthService:1.5.0
     owner: Joe Stubbs
@@ -843,6 +847,7 @@ components:
     trainingTutorialsAvailable: true
     trainingTutorialsUrl: https://tapis-project.github.io/tutorials/pods/intro/
     usageMetricsCollected: true
+    category: Category3
 
   - id: PPOD_Core:0.5.0
     owner: Allan Hollander
@@ -857,4 +862,7 @@ components:
     targetIcicleRelease: 2024-06
     publicAccess: true
     licenseUrl: https://github.com/PPODschema/PPOD_Core/blob/main/LICENSE
+    trainingTutorialsAvailable: true
+    trainingTutorialsUrl: https://tapis-project.github.io/tutorials/pods/intro/
+    category: Category3
 #
